@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npm install --save videojs-trimmer
+npm install --save @pablo_bagliere/videojs-trimmer
 ```
 
 ## Usage
