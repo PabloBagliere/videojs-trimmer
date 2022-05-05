@@ -1,5 +1,5 @@
 {
-  "name": "@pablobagliere/videojs-trimmer",
+  "name": "@pablo_bagliere/videojs-trimmer",
   "version": "0.1.4",
   "description": "",
   "main": "dist/videojs-trimmer.cjs.js",
@@ -11,10 +11,6 @@
     "defaults",
     "ie 11"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PabloBagliere/videojs-trimmer.git"
-  },
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm-run-all -p build:*",
