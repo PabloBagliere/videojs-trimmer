@@ -69,19 +69,19 @@ function getValues() {
 }
 
 function showhide() {
-  if (rsPlugin.hidden) rsPlugin.show();
+  if (rsPlugin.options.hidden) rsPlugin.show();
   else rsPlugin.hide();
 }
 function lockunlock() {
-  if (rsPlugin.locked) rsPlugin.unlock();
+  if (rsPlugin.options.locked) rsPlugin.unlock();
   else rsPlugin.lock();
 }
 function showhidePanel() {
-  if (!rsPlugin.panel) rsPlugin.showPanel();
+  if (!rsPlugin.options.panel) rsPlugin.showPanel();
   else rsPlugin.hidePanel();
 }
 function showhideControlTime() {
-  if (!rsPlugin.controlTime) rsPlugin.showcontrolTime();
+  if (!rsPlugin.options.controlTime) rsPlugin.showcontrolTime();
   else rsPlugin.hidecontrolTime();
 }
 
